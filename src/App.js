@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Navbar from './components/Navbar';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Route path="/tourregister" element={<TourRegister/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/about" element={<About/>}/>
-      
+      <Route path="/faq" element={<Faq/>}/>
       
     </Routes>
     </BrowserRouter>
